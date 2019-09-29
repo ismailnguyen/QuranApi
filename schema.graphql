@@ -1,0 +1,20 @@
+type Query {	
+	surahs: [Surah]
+	surah(number: Int): [Surah]
+	random: [Ayah]
+}
+
+type Surah {
+	number: Int
+	name: String
+	englishName: String,
+	englishNameTranslation: String
+	ayahs: [Ayah]
+}
+
+type Ayah {
+	number: Int
+	numberInSurah: Int
+	juz: Int
+	text: String
+}
