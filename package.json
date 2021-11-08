@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ismailnguyen/QuranApi#readme",
   "dependencies": {
-    "apollo-server": "^2.9.4",
+    "apollo-server": "^2.25.3",
     "graphql-import": "^0.7.1",
     "graphql-tools": "^4.0.5"
   }
